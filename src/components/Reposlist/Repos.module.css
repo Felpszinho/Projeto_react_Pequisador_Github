@@ -1,0 +1,44 @@
+.list {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-gap: 8px;
+    
+    border-radius: 15px
+}
+
+.listItem {
+    width: 250px;
+    margin-top: 50px;
+    list-style: none;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+
+}
+
+.listItemName,
+.itemLanguage {
+    margin-right: 5px;
+
+}
+
+.itemLink {
+    display: block;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.itemLink:hover {
+    background-color: red;
+    color: black;
+}

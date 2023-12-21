@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(129, 127, 127);
+    
+}
+.container{
+ 
+    max-width: 960px;
+    width: 100%;
+   margin: 0 auto;
+   text-align: center;
+
+   
+
+}
+.search{
+   background-color: aliceblue;
+   border-radius: 15px;
+   text-align: center;
+  
+ 
+}
